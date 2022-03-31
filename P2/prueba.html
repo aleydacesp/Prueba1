@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Colorin Colorado</title>
+  <link rel="icon" type="image/png" href="shortcut icon" type="https://republicanaradio.com/wp-content/uploads/2020/05/123-1238448_short-discussions-with-parenting-and-child-development-icono.jpg" />
+	<link rel="stylesheet" type="text/css" href="estilos/estilosPrin.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="general">
+    <header >
+      <div class="cabecera">
+        <a  href="index.html"><img id="logo" src="iconos/logo1.4.png" height="75px" /></a>
+          <div class="textoHeader">Curso de Lectura de Comprensión</div>
+          <div id="botonInic">
+            <!-- Cambio en la linea de abajo -->
+            <a class="boton_administrar" style="color: white;" href="acceder.html">Iniciar sesión</a>
+          </div>
+      </div>
+    </header>
+    
+   <div id="titulo">
+      Colorín Colorado
+    </div>
+  
+
+    <div style=" margin-top: 35px;">
+      <div  class="contenedoresNiveles"align="center"  style="margin-right: 1% ;float: right">
+        <a href="CuentosLargos.html"> <img  class="imagenNivel" src="iconos/cuentoslargos.png" height="250px" alt="largos" /></a>
+        <div style="padding-left: 4px; padding-top: 25px;">
+          <a class="boton_personalizado" href="CuentosLargos.html">Cuentos Largos</a>
+        </div>
+      </div>
+      <div class="contenedoresNiveles" align="center" >
+        <a href="CuentosCortos.html"> <img class="imagenNivel"src="iconos/cuentosCortos.png" height="250px" alt="cortitos" /></a>
+          <div style="padding-left: 1px; padding-top: 25px;" >
+           <a class="boton_personalizado" href="CuentosCortos.html">Cuentos Cortos</a>
+           </div>
+    </div>
+
+  </div>
+ 
+  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+  
+  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-storage.js"></script>  
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAbFC7FyNe9t8VBGO8xXPu-XtFSWeuo2i0",
+        authDomain: "colorin-colorado-f857f.firebaseapp.com",
+        databaseURL: "https://colorin-colorado-f857f-default-rtdb.firebaseio.com",
+        projectId: "colorin-colorado-f857f",
+        storageBucket: "colorin-colorado-f857f.appspot.com",
+        messagingSenderId: "31331535773",
+        appId: "1:31331535773:web:55d57a73caeb602085bd74",
+        measurementId: "G-37YPHDXTPN"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</div>
+</body>
